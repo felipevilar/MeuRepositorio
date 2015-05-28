@@ -95,30 +95,29 @@ ScenepickPlayer.prototype.onEnter = function() {
 		this.selectedPlayers += 1;
 	 
 		if(this.selectedPlayers == 1) {
-
-			document.getElementById("box"+this.currentFocus+"_selectplayer").style.backgroundColor = "#CC3333";
+			document.getElementById("box"+this.currentFocus+"_selectplayer").style.backgroundColor = "rgb(299,76,45)";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").style.borderColor = "red";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").style.borderWidth = "2px";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").className += " ok";
-						$(".selected").css({"background-color":"yellow"});
 			var imagePath = document.getElementById("img"+this.currentFocus+"").src;
 			this.imageUrl.push(imagePath);
 
 		} else if(this.selectedPlayers == 2) {
+			document.getElementById("box"+this.currentFocus+"_selectplayer").style.backgroundColor = "#3333CC";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").style.borderColor = "blue";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").style.borderWidth = "2px";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").className += " ok";
 			var imagePath = document.getElementById("img"+this.currentFocus+"").src;
 			this.imageUrl.push(imagePath);
 		} else if(this.selectedPlayers == 3) {
-
+			document.getElementById("box"+this.currentFocus+"_selectplayer").style.backgroundColor = "rgb(64,299,93)";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").style.borderColor = "green";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").style.borderWidth = "2px";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").className += " ok";
 			var imagePath = document.getElementById("img"+this.currentFocus+"").src;
 			this.imageUrl.push(imagePath);
 		} else {
-			
+			document.getElementById("box"+this.currentFocus+"_selectplayer").style.backgroundColor = "rgb(242,193,47)";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").style.borderColor = "yellow";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").style.borderWidth = "2px";
 			document.getElementById("box"+this.currentFocus+"_selectplayer").className += " ok";

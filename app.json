@@ -1,0 +1,10 @@
+{
+ "scenes": [
+  "main",
+  "tabscreen",
+  "pickPlayer"
+ ],
+ "files": [],
+ "theme": "base",
+ "modules": ["ime"]
+}

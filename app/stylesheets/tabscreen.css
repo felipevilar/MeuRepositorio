@@ -1,0 +1,201 @@
+#Scenetabscreen{
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 1280px;
+	height : 720px;
+	background-color : #ffffff;
+	background-image : url('..\\..\\images\\background-tabuleiro.png');
+	background-size : 1280px 720px;
+	visibility : visible;
+}
+
+#ball-1 {
+left: 12px;
+top: 2px;
+position: absolute;
+border-color: red;
+}
+#ball-2 {
+left: 1141px;
+top: 2px;
+position: absolute;
+border-color: yellow;
+}
+#ball-3 {
+left: 881px;
+top: 2px;
+position: absolute;
+border-color: green;
+}
+#ball-4 {
+left: 287px;
+top: 2px;
+position: absolute;
+border-color: blue;
+}
+.ball {
+height: 121px;
+width: 107px;
+background-color: #FFF;
+border-radius: 20000px;
+border-width: 7px;
+border-style: double;
+}
+
+#contorno-1 {
+position: absolute;
+left: 142px;
+top: 48px;
+height: 76px;
+width: 114px;
+background-color: #FFF;
+border-radius: 40px;
+border-color: red;
+border-style: double;
+border-width: 7px;
+}
+
+#contorno-2 {
+position: absolute;
+left: 425px;
+top: 48px;
+height: 76px;
+width: 114px;
+background-color: #FFF;
+border-radius: 40px;
+border-color: blue;
+border-style: double;
+border-width: 7px;
+}
+
+#contorno-3 {
+position: absolute;
+left: 733px;
+top: 48px;
+height: 76px;
+width: 114px;
+background-color: #FFF;
+border-radius: 40px;
+border-color: green;
+border-style: double;
+border-width: 7px;
+}
+
+#contorno-4 {
+position: absolute;
+left: 1006px;
+top: 48px;
+height: 76px;
+width: 114px;
+background-color: #FFF;
+border-radius: 40px;
+border-color: yellow;
+border-style: double;
+border-width: 7px;
+}
+
+
+#SchoolBus {
+	top: 500px;
+	left: 875px;
+	position: absolute;
+}
+
+#partida {
+	position: absolute;
+	top: 432px;
+	left: 829px;
+	width: 290px;
+	height: 207px;
+	background-color: #FFF;
+	border: 2px solid black;
+	border-radius: 100px;
+}
+#tabuleiro{
+	position : absolute;
+	left : 15px;
+	top : 150px;
+	width : 1250px;
+	height : 564px;
+	background-image : url('..\\..\\images\\tabuleiro_x15_y150.png');
+}
+#roleta {
+	position: absolute;
+	top: 10px;
+	left: 580px;
+	width: 130px;
+	height: 130px;
+	background-image : url('..\\..\\images\\roleta.png');
+}
+
+
+#player1 {
+	position: absolute;
+	left: 35px;
+	visibility: hidden;
+}
+
+#player2 {
+	position: absolute;
+	left: 310px;
+	visibility: hidden;
+}
+
+#player3 {
+	position: absolute;
+	left: 906px;
+	visibility: hidden;
+}
+
+#player4 {
+	position: absolute;
+	left: 1167px;
+	visibility: hidden;
+}
+#PontuacaoText {
+	position: absolute;
+}
+.block {
+	top: 17px;
+	background-size: 70px 100px;
+	width: 70px;
+	height: 100px;
+}
+#point-1 {
+top: 60px;
+position: absolute;
+left: 154px;
+visibility: hidden;
+}
+#point-2 {
+	top: 60px;
+	position: absolute;
+	left: 437px;
+	visibility: hidden;
+}
+#point-3 {
+	top: 60px;
+	position: absolute;
+	left: 745px;
+	visibility: hidden;
+}
+#point-4 {
+	top: 60px;
+	position: absolute;
+	left: 1019px;
+	visibility: hidden;
+}
+.textPoint {
+	font-variant: small-caps;
+	font-family: 'BirdyGame', Fallback, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: rgb(41, 255, 0);
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;	
+}
+.classPlayer {
+
+}
+
+

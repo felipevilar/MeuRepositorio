@@ -1,0 +1,115 @@
+#ScenepickPlayer {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 1280px;
+	height : 720px;
+	background-image : url('..\\..\\images\\background-sp.png');
+	background-size : 1280px 720px;
+	background-color: #FFFF;
+	visibility: visible;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+}
+#selecionaJogador {
+	font-variant: small-caps;
+	font-family: 'BirdyGame', Fallback, sans-serif;
+	font-size: 88px;
+	margin: 0px;
+	text-align: center;
+	color: #ffe900;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#box1_selectplayer {
+	border-width: 2px;
+}
+#box2_selectplayer {
+	border-width: 2px;
+}
+#box3_selectplayer {
+	border-width: 2px;
+}
+#box4_selectplayer {
+	border-width: 2px;
+}
+#box5_selectplayer {
+	border-width: 2px;
+}
+#box6_selectplayer {
+	border-width: 2px;
+}
+
+#main_box {
+	position: absolute;
+	left: 180px;
+	width: 1000px;
+	height: 650px;
+	top: 30px;
+}
+
+#img1 {
+	margin: 60px;
+	margin-left: 75px;
+}
+#img2 {
+	margin: 60px;
+	margin-left: 75px;
+}
+#img3 {
+	margin: 60px;
+	margin-left: 75px;
+}
+#img4 {
+	margin: 60px;
+	margin-left: 75px;
+}
+#img5 {
+	margin: 60px;
+	margin-left: 75px;
+}
+#img6 {
+	margin: 60px;
+	margin-left: 75px;
+}
+
+.selectplayer {
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 250px;
+	border: 3px solid #cad4fa;
+	border-radius: 45px;
+	margin: 20px;
+	/*margin-top: 80px;*/
+	float: left;
+	background-color: #cad4fa;
+	opacity: 0.7;
+}
+
+.selected {
+	background-color: #CC3333;
+	border: 3px solid #FFF;
+	opacity: 1;
+}
+
+.selectedYellow {
+	background-color: yellow;
+	border: 3px solid #FFF;
+	opacity: 1;
+}
+
+.selectedBlue {
+	background-color: blue;
+	border: 3px solid #FFF;
+	opacity: 1;
+}
+
+.selectedGreen {
+	background-color: green;
+	border: 3px solid #FFF;
+	opacity: 1;
+}
+
+.ok {
+	border: 1px solid pink;
+}
